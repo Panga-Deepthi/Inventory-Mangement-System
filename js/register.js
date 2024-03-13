@@ -30,7 +30,6 @@ $(document).on('click', '#register', function() {
 			status = false;
 		}
 
-
 		 if(!e_patt.test(emailAddress)){
 		 	// email.addClass("border-danger");
 		 	$("#emailAddressError").html("<span class='text-danger'>Please Enter Valid Email Address</span>");
